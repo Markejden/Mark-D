@@ -1,62 +1,33 @@
-#wrapper{
-    width: 100%;
-    height: 98vh;
-    margin: auto;
-    display: grid;
-    grid-template-areas: 
-    'hd hd hd hd'
-    'nv nv nv nv'
-    'mn mn mn as'
-    'sc1 sc2 sc3 as'
-    'ft ft ft ft';
-    grid-template-columns: 2fr 2fr 2fr 2fr;
-    grid-template-rows: 1fr 0.4fr 3fr 1fr 1fr;
-    gap: 1vh;
-    backdrop-filter: blur(5px);
-}
-
-header,nav,main,section,aside,footer {
-    outline: 2px rgb(181, 139, 99) solid;
-    border-radius: 1vh;
-    box-shadow: 0px 5px 0px 0px rgb(165, 181, 141);
-    background-color: rgb(246, 239, 232);
-}
-
-header{
-    grid-area: hd;
-}
-
-nav{
-    grid-area: nv;
-}
-
-main{
-    grid-area: mn;
-}
-
-#section1{
-    grid-area: sc1;
-}
-
-#section2{
-    grid-area: sc2;
-}
-
-#section3{
-    grid-area: sc3;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/startsida.css">
+    <title>Solglimt</title>
+</head>
+<body>
+    <div id="wrapper">
+        <nav>
+            <a href="startsida.html">Startsida</a>
+            <a href="meny.html">Meny</a>
+            <a href="omoss.html">Om oss</a>
+        </nav>
+        <header>hd</header>
+        <main>mn</main>
+        <section id="section1">sc</section>
+        <section id="section2">sc</section>
+        <section id="section3">sc</section>
+        <aside>as</aside>
+        <footer>ft</footer>
+    </div>
+</body>
+</html>
 
 
-aside{
-    grid-area: as;
-}
 
-footer{
-    grid-area: ft;
-}
-
-
-/* Varm brun rgb(181 139 99) kombinerad med mild creme rgb(246 239 232) och mjuk grön rgb(165 181 141) för en naturlig och inbjudande känsla.
+<!-- Varm brun (#b58b63) kombinerad med mild creme (#f6efe8) och mjuk grön (#a5b58d) för en naturlig och inbjudande känsla.
 LOGA
 En stiliserad kaffekopp med en solstråle eller ett leende som symboliserar glädje, värme och gemenskap.
 
@@ -109,3 +80,4 @@ Totalt tre html-sidor, varav en landing page med namnet index.html
 Använd gärna AI-genererad text till paragrafer/rubriker.
 Anpassa bilder/text så att de passar ihop. Originalfiler (ex. .psd, oredigerad jpg etc placeras i misc mappen) redigerade bilder i img.
 Lagermasker och justeringslager ska användas på minst en bild (t.ex. frilägga ansikte). Photoshop/Illustrator-filen läggs i misc-mappen. I img-mappen till projektet lägger ni den exporterade bilden som används på hemsidan (samt övriga bilder ni har använt). 
+
