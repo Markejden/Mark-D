@@ -14,7 +14,7 @@ body{
     'mn mn mn'
     'ft ft ft';
     grid-template-columns: 2fr 2fr 2fr;
-    grid-template-rows: 0.8fr 0.4fr 3fr 1fr 1fr;
+    grid-template-rows: 0.8fr 0.2fr 3fr 1fr 1fr;
     gap: 1vh;
     backdrop-filter: blur(5px);
 }
@@ -31,6 +31,7 @@ header{
     background-image: url('../Img/cafeutsida.jpg');
     background-size: cover;
     background-position: 10px;
+    background-attachment: fixed;
     opacity: 0.8;
     text-align: center;
     font-size: xx-large;
@@ -60,8 +61,8 @@ nav{
 }
 
 a{
-    padding-bottom: 4vh;
-    padding-top: 4vh;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
     padding-left: 12%;
     padding-right: 12%;
     background-color: rgb(181, 139, 99);

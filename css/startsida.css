@@ -1,5 +1,6 @@
 body{
     background-color: rgb(181, 139, 99);
+    margin: 0;
 }
 
 #wrapper{
@@ -14,12 +15,14 @@ body{
     'sc1 sc2 sc3 as'
     'ft ft ft ft';
     grid-template-columns: 2fr 2fr 2fr 2fr;
-    grid-template-rows: 0.8fr 0.4fr 3fr 1fr 1fr;
-    gap: 1vh;
+    grid-template-rows: 0.8fr 0.2fr 3fr 1fr 1fr;
+    row-gap: 0;
+    column-gap: 1vh;
     backdrop-filter: blur(5px);
 }
 
-header, nav,main,section,aside,footer {
+main,section,aside,footer {
+    
     outline: 2px rgb(116, 77, 41) solid;
     border-radius: 2vh;
     box-shadow: 0px 5px 0px 0px rgb(165, 181, 141);
@@ -31,6 +34,7 @@ header{
     background-image: url('../Img/cafeutsida.jpg');
     background-size: cover;
     background-position: 10px;
+    background-attachment: fixed;
     opacity: 0.8;
     text-align: center;
     font-size: xx-large;
@@ -57,11 +61,17 @@ nav{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    position: sticky;
+    top: 1%;
+    outline: 2px rgb(116, 77, 41) solid;
+    border-radius: 2vh;
+    box-shadow: 0px 5px 0px 0px rgb(165, 181, 141);
+    background-color: rgb(246, 239, 232);
 }
 
 a{
-    padding-bottom: 4vh;
-    padding-top: 4vh;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
     padding-left: 12%;
     padding-right: 12%;
     background-color: rgb(181, 139, 99);
