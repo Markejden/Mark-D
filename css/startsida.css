@@ -1,12 +1,16 @@
+html{
+    overflow: hidden;
+    height: 100%;
+}
+
 body{
+    height: 100%;
     background-color: rgb(181, 139, 99);
     margin: 0;
     padding: 0;
+    overflow-y: auto;
     overflow-x: hidden;
-}
-
-#topbar {
-    width: 100%;
+    overscroll-behavior-y: none;
 }
 
 header{
@@ -29,7 +33,7 @@ header{
 
 h1{
     margin: 0;
-    padding: 2vh 20vw;
+    padding: 2vh 14vw;
     background-color: rgba(165, 181, 141, 0.8);
     border-radius: 5px;
     box-sizing: border-box;
@@ -42,7 +46,7 @@ h1{
     display: block;
     text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
     letter-spacing: 0.5vw;
-    font-size: clamp(2rem, 5vw, 4rem);
+    font-size: clamp(3rem, 7vw, 4rem);
 }
 
 nav{
