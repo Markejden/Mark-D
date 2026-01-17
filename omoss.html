@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
 </head>
 <body>
     <nav class="navig">
-        <img src="img\loga.png" alt="loga" id="loga">
+        <img src="img/loga.png" alt="loga" id="loga">
         <h2 class="text">Göteborgs mest välkommnande café</h2>
         <a class="navtext" href="startsida.html">Startsida</a>
         <a class="navtext" href="meny.html">Meny</a>
@@ -21,11 +21,11 @@
     <div class="wrapper" id="wrp3">
         <main id="main3-1" class="mainmn">
             <h3 id="mntitel3" class="text">Om oss</h3>
-            <h4 id="mntitel1" class="text">Vår berättelse</h4>
-            <p id="mntext1" class="text">Kafé Solglimt öppnade sina dörrar 2018 med en enkel vision: att skapa en plats där alla känner sig välkomna. Grundarna, Emma och David, hade alltid drömt om ett café som kändes som ett andra hem – där kvaliteten på kaffet matchades av varm service och en inbjudande atmosfär. Namnet "Solglimt" kommer från deras övertygelse att även på de gråaste dagar kan en kopp kaffe och ett vänligt leende sprida ljus. <br>
+            <h4 class="menytitel">Vår berättelse</h4>
+            <p id="mntext1" class="text">Kafé Solglimt öppnade sina dörrar 2018 med en enkel vision: att skapa en plats där alla känner sig välkomna. Grundarna, Emma och David, hade alltid drömt om ett café som kändes som ett andra hem – där kvaliteten på kaffet matchades av varm service och en inbjudande atmosfär. Namnet "Solglimt" kommer från deras övertygelse att även på de gråaste dagar kan en kopp kaffe och ett vänligt leende sprida ljus. <br><br>
             Idag är vi ett team på åtta personer som alla delar samma passion för god mat, ekologiska råvaror och genuin gästvänlighet. Vi arbetar aktivt med lokala leverantörer och strävar efter att minska vår miljöpåverkan genom kompostering, återvinning och ett medvetet val av förpackningar.</p>
         </main>
-        <main id="main3-2">
+        <section id="main3-2">
             <div class="maincont">
                 <h3 class="text">Öppettider</h3>
                 <p class="text">Måndag - Fredag: 7:30 - 18:00</p>
@@ -43,8 +43,8 @@
                 <p class="text">Vi arrangerar bröllop, födelsedagar, <br> möten och andra sammankomster. <br> Kontakta oss för ett erbjudande.</p>
                 <p class="text">För catering ring: 012-345 67 89</p>
             </div>
-        </main>
-        <section id="section3-1">
+        </section>
+        <div id="section3-1">
             <p class="text">Emma - Grundare & Barista <br>
                 Med bakgrund som konditor och en passion för etiskt odlat kaffe, är Emmas dröm äntligen verklighet. Hon älskar att experimentera med nya smakkombinationer.
             </p>
@@ -57,10 +57,10 @@
             <p class="text">Marcus & Lisa - Servicestjärnor <br>
                 Våra glada baristor som alltid har ett leende och ett gott råd om du är osäker på vad du ska beställa.
             </p>
-        </section>
-        <section id="section3-2">
+        </div>
+        <div id="section3-2">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1287.0098274730367!2d11.9730517!3d57.6906155!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff30cadd946df%3A0x39654b05d8cc5f4a!2sOrigov%C3%A4gen%204%2C%20412%2058%20G%C3%B6teborg!5e1!3m2!1ssv!2sse!4v1768618024552!5m2!1ssv!2sse" width="600" height="250" style="border:0; border-radius: 4vh;padding: 15px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
+        </div>
     </div>
         <footer>
             <div class="footcont">
@@ -81,60 +81,3 @@
         </footer>
 </body>
 </html>
-
-
-
-<!-- Varm brun (#b58b63) kombinerad med mild creme (#f6efe8) och mjuk grön (#a5b58d) för en naturlig och inbjudande känsla.
-LOGA
-En stiliserad kaffekopp med en solstråle eller ett leende som symboliserar glädje, värme och gemenskap.
-
-Startsida (Landing page – Grid)
-
-
-Välkomsttext och kort presentation av Kafé Solglimt
-
-
-Stora bilder på kaffe, bakverk och kafémiljön
-
-
-Snabblänkar till meny och kontakt
-
-
-Menysida (Cards – Flex i Grid)
-
-
-Bilder och beskrivningar av drycker, bakverk och lunchalternativ
-
-
-Markering av veganska och glutenfria val
-
-
-Knappar för “Se hela menyn” eller “Beställ catering”
-
-
-Om oss (Grid)
-
-
-Kaféets historia och vision
-
-
-Presentation av ägare och personal
-
-
-Karta, öppettider och kontaktformulär
-
-Kravspecifikation
-Layouten på alla sidor skall göras främst med GRID. Du skall göra 3 sidor på din webbsida.
-
-3 olika skisser över de olika sidorna
-Olika layout på sidor men konsekvent header + navigation 
-En landing page - Startsida (GRID)
-En cardssida (t.ex. anställda, företagets produkter eller liknande) FLEX (i GRID) ex. till höger →
-Den tredje sidan skall lösas med GRID
-Vanliga mappstrukturen i kursen. Undermappar css, img, misc.(misc ny, placera filer som inte passar andra mappar)
-Html-dokument i projektets huvudmapp. Passande filnamn. (inga nordiska tecken samt mellanslag)
-Totalt tre html-sidor, varav en landing page med namnet index.html
-Använd gärna AI-genererad text till paragrafer/rubriker.
-Anpassa bilder/text så att de passar ihop. Originalfiler (ex. .psd, oredigerad jpg etc placeras i misc mappen) redigerade bilder i img.
-Lagermasker och justeringslager ska användas på minst en bild (t.ex. frilägga ansikte). Photoshop/Illustrator-filen läggs i misc-mappen. I img-mappen till projektet lägger ni den exporterade bilden som används på hemsidan (samt övriga bilder ni har använt). 
-
